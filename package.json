@@ -1,0 +1,23 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scan": "node file-organizer.js scan",
+    "duplicates": "node file-organizer.js duplicates",
+    "organize": "node file-organizer.js organize",
+    "cleanup": "node file-organizer.js cleanup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "commander": "^15.0.0",
+    "npm": "^12.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
